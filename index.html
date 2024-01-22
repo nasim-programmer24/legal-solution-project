@@ -281,7 +281,7 @@
         </div>
       </section>
     </header>
-    <main class="container mx-auto max-w-[1170px]">
+    <main class="container mx-auto ">
       <!-- Legal Practice Area Section -->
       <section class="mx-auto text-center py-16">
         <h1 class="font-garamond pb-6 text-4xl font-extrabold text-[#414040]">
@@ -522,15 +522,21 @@
       </section>
       <!-- Our Client Say Section  -->
       <section class="py-14 mx-auto text-center">
-        <h1>What Our Client Say</h1>
-        <p>
+        <h1 class="py-6 font-garamond text-4xl font-extrabold text-[#414040]">What Our Client Say</h1>
+        <p class="pb-16 w-[60%] text-center mx-auto">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour.
         </p>
         <div>
             <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full bg-[rgba(17, 17, 17, 0.80);,url(./images/banner.png)]">
+                <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(0deg,rgba(17,17,17,0.8),rgba(17,17,17,0.8)),url(./images/banner.png)] bg-center bg-cover h-[60vh]">
+                  <div class="my-auto">
+                    <img class="absolute top-[20%] left-[47.5%] bg-transparent" src="./images/Ellipse 1.png" alt="">
+                    <h2 class="font-garamond text-white text-2xl font-extrabold">Awlad Hossain</h2>
+                    <h4 class="font-poppins text-white text-base font-normal leading-7">UIX Designer</h4>
+                    <p class="w-[75%] text-center mx-auto font-poppins text-base font-normal leading-7 text-white mt-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                  </div>
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a> 
                     <a href="#slide2" class="btn btn-circle">❯</a>
@@ -561,11 +567,11 @@
         </div>
       </section>
       <!-- Frequently Asked Questions Section  -->
-      <section class="py-6 mx-auto text-center">
+      <section class="py-6 mx-auto text-center ">
       <h1 class="pb-6 text-center mx-auto text-4xl font-garamond font-extrabold text-[#414040]">Frequently Asked Any Questions</h1>
       <p class="w-[60%] text-center mx-auto font-poppins text-base leading-6 text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-      <div class="flex gap-6 flex-col lg:flex-row py-16 items-center">
-        <div class="flex-1 space-y-8 ">
+      <div class="flex gap-8 flex-col lg:flex-row py-16 items-center justify-center">
+        <div class="flex-1 space-y-8">
             <div class="collapse collapse-plus bg-base-200 ">
                 <input type="radio" name="my-accordion-3" checked="checked" /> 
                 <div class="collapse-title text-xl font-medium p-8">
@@ -603,7 +609,8 @@
                 </div>
               </div>
         </div>
-        <div class="flex-1">
+        <div > 
+          <!-- here we can give class flex-1 -->
             <img src="./images/faq.png" alt="">
         </div>
       </div>
